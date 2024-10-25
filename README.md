@@ -225,7 +225,7 @@ Original file hash: 8e428c002fbfd7429a3698739c0cb81c
 
 ## Step 2: Run the File Reconstruction Command
 
-Run the reconstruction command:
+Run the reconstruction command (I deleted chunk 3 and 8):
 ```bash
 & YourPythonPath/python.exe chunknorris.py -n F:\Hauler\stagging\chunk006.bin -o F:\Hauler\stagging
 ```
@@ -252,7 +252,8 @@ Error during reconstruction: Cannot proceed with reconstruction: 2 chunks missin
 
 Regenerate missing chunks using the `-c` option:
 ```bash
-& YourPythonPath/python.exe chunknorris.py -f F:\Hauler\hauler_airgap_08_21_24.zst -l F:\Hauler\stagging -o F:\Hauler\stagging -i F:\Hauler\stagging -c MissingChunkNumber
+& YourPythonPath/python.exe chunknorris.py -f F:\Hauler\hauler_airgap_08_21_24.zst -l F:\Hauler\stagging -o F:\Hauler\stagging -i F:\Hauler\stagging -c 3
+& YourPythonPath/python.exe chunknorris.py -f F:\Hauler\hauler_airgap_08_21_24.zst -l F:\Hauler\stagging -o F:\Hauler\stagging -i F:\Hauler\stagging -c 8
 ```
 
 Example Output:
