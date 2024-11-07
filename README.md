@@ -166,20 +166,7 @@ This project is licensed under the [GNU General Public License v3.0](https://www
 
 ## Authors
 
-- PeeBee
-
-## Acknowledgments
-
-- Inspired by the need for efficient large file handling
-- Chuck Norris, for being awesome
-
-
-
-[Previous README content remains exactly the same until Acknowledgments section...]
-
-## Authors
-
-- PeeBee
+- PeeBee (peebee_github@protonmail.com)
 
 ## Acknowledgments
 
